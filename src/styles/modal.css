@@ -1,0 +1,70 @@
+@keyframes animationModal{
+    0%{transform: translateY(-500px);}
+    100%{transform: translateY(0);}
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+body .modalAlert{
+    width: 125px;
+    height: 110px;
+    margin: auto;
+    border-radius: var(--borderR8);
+    border: 4px solid var(--brand-1);
+    font-weight: var(--fontW7);
+    color: var(--whitefixed);
+    background: var(--brand-1);
+    text-align: center;
+    line-height: 160%;
+    animation: animationModal .3s;
+}
+body .modalPost{
+    padding-top: 40px;
+    width: 85%;
+    max-width: 500px;
+    height: fit-content;
+    margin: auto;
+    border-radius: var(--borderR8);
+    background: var(--whitefixed);
+    border: 1px solid var(--whitefixed);
+    position: relative;
+    animation: animationModal .7s;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 0 10px rgb(200, 200, 200);
+}
+body .modalPost .divModal{ 
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body .modalPost .divModal .divBtnClose{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    padding-left: 12px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+body .modalPost .divModal .divBtnClose .btnClose{
+    font-weight: var(--fontW4);
+    color: var(--grey3);
+    background: none;
+    font-family: var(--fontF2);
+    cursor: pointer;
+}
+body .modalPost .divModal .divHeader{
+    width: 87.53%;
+}
+body .modalPost .divModal .pTitle{
+    width: 87.53%;
+}
+body .modalPost .divModal .pPost{
+    margin-bottom: 40px;
+    width: 87.53%;
+}

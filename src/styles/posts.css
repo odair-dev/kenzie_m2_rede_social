@@ -1,0 +1,63 @@
+body main .divPosts{
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    padding: 0 4.71%;
+    
+}
+body main .divPosts .pPosts{
+    font-size: var(--fontS28);
+    font-weight: var(--fontW7);
+    color: var(--grey1);
+    margin-bottom: 50px;
+}
+body main .divPosts .ulPosts .liPosts{
+    margin-bottom: 50px;
+}
+body main .divPosts .ulPosts .liPosts .divCard .divHeader > figure{
+    width: 52px;
+    height: 52px;
+}
+.pTitle{
+    margin-top: 32px;
+    font-size: var(--fontS28);
+    font-weight: var(--fontW7);
+    color: var(--grey1);
+    line-height: 40px;
+    font-family: var(--fontF1);
+}
+.pPost{
+    margin-top: 20px;
+    font-size: var(--fontS16);
+    font-weight: var(--fontW4);
+    color: var(--grey2);
+    line-height: 28px;
+    font-family: var(--fontF1);
+}
+body main .divPosts .ulPosts .liPosts .divCard > button{
+    width: 92px;
+    height: 38px;
+    border-radius: var(--borderR4);
+    margin-top: 32px;
+    background: var(--grey1);
+    font-size: var(--fontS14);
+    font-weight: var(--fontW6);
+    color: var(--whitefixed);
+    cursor: pointer;
+    font-family: var(--fontF1);
+}
+body main .divPosts .ulPosts .liPosts .divCard > button:hover{
+    background: var(--grey0);
+}
+body main .divPosts .ulPosts .liPosts .divCard .fa-solid{
+    color: var(--grey3);
+    margin-left: 32px;
+    font-size: var(--fontS20);
+    cursor: pointer;
+}
+body main .divPosts .ulPosts .liPosts .divCard span{
+    margin-left: 7px;
+    font-size: var(--fontS14);
+    font-weight: var(--fontW4);
+    font-family: var(--fontF1);
+}

@@ -1,0 +1,57 @@
+body main .divSuggest{
+    width: 95.29%;
+    margin-top: 40px;
+    align-self: flex-end;
+}
+body main .divSuggest .pSuggest{
+    font-size: var(--fontS20);
+    color: var(--grey1);
+    font-weight: var(--fontW6);
+    font-family: var(--fontF1);
+}
+body main .divSuggest .ulSuggest{
+    display: flex;
+    overflow: auto;
+}
+body main .divSuggest .ulSuggest .liSuggest{
+    margin-right: 15.06%;
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard{
+    margin-top: 61px;
+    height: 100px;
+    width: fit-content;
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard .divHeader{
+    margin-bottom: 20px;
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard .divHeader .sectionIdentification .pName{
+    width: 175px;
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard .btnFollow{
+    width: 68px;
+    height: 28px;
+    background: none;
+    font-size: var(--fontS14);
+    font-weight: var(--fontW6);
+    color: var(--grey1);
+    border: 1px solid var(--grey1);
+    border-radius: var(--borderR2);
+    cursor: pointer;
+    font-family: var(--fontF1);
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard .btnFollow:hover{
+    color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+}
+body main .divSuggest .ulSuggest .liSuggest .miniCard .clicked{
+    width: 89px;
+    height: 28px;
+    background: var(--brand-1);
+    font-size: var(--fontS14);
+    font-weight: var(--fontW6);
+    color: var(--whitefixed);
+    border: 2px solid var(--brand-1);
+    border-radius: var(--borderR2);
+    cursor:pointer;
+    font-family: var(--fontF1);
+}

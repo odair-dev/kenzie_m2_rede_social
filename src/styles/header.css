@@ -1,0 +1,23 @@
+body nav{
+    width: 100vw;
+    height: 76px;
+    background: var(--grey1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+body nav > img{
+    max-width: 119.79px;
+    width: 28.19%;
+    margin-left: 4.7%;
+    
+}
+body nav > p{
+    color: var(--whitefixed);
+    margin: 0 30px 0 0;
+    cursor: pointer;
+    font-family: var(--fontF1);
+}

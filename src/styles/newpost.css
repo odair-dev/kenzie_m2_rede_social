@@ -1,0 +1,81 @@
+body main .divPost{
+    margin-top: 48px;
+    width: 90.59%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.divHeader{
+    width: fit-content;
+    height: 52px;
+    display: flex;
+}
+.imgUser{
+    width: 52px;
+    height: 52px;
+}
+.sectionIdentification{
+    width: fit-content;
+    height: 52px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+.pName{
+    font-size: var(--fontS20);
+    color: var(--grey1);
+    font-family: var(--fontF1);
+}
+.pOffice{
+    font-size: var(--fontS14);
+    color: var(--grey2);
+    font-family: var(--fontF1);
+}
+body main .divPost form{
+    width: 100%;
+    margin-top: 40px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 22px;
+}
+body main .divPost form input{
+    width: 100%;
+    height: 52px;
+    border: 2px solid var(--grey4);
+    padding-left: 20px;
+    font-family: var(--fontF1);
+    border-radius: var(--borderR4);
+}
+body main .divPost form input:focus{
+    border: 2px solid var(--brand-1);
+}
+body main .divPost form textarea{
+    width: 100%;
+    height: 130px;
+    padding-left: 21px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 2px solid var(--grey4);
+    font-size: var(--fontS16);
+    font-family: var(--fontF1);
+    border-radius: var(--borderR4); 
+}
+body main .divPost form #textNewPost:focus{
+    outline: none;  
+    border: 2px solid var(--brand-1);
+}
+body main .divPost form button{
+    width: 69px;
+    height: 38px;
+    background: var(--grey4);
+    color: var(--grey3);
+    cursor: pointer;
+    font-family: var(--fontF1);
+    border: 2px solid var(--gray4);
+    border-radius: var(--borderR4);
+}
